@@ -1,0 +1,34 @@
+.project {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px 50px 100px;
+  border-top: 1px solid rgb(201, 201, 201);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.project h2 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin: 0;
+  transition: all 0.2s;
+}
+
+.project p {
+  font-weight: 300;
+  transition: all 0.2s;
+}
+
+.project:hover {
+  opacity: 0.4;
+}
+
+.project:hover h2 {
+  transform: translate(-15px);
+}
+
+.project:hover p {
+  transform: translate(15px);
+}
